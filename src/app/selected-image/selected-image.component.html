@@ -1,0 +1,11 @@
+
+@if(selectedImage){
+    <div>
+        <h2>{{ selectedImage.name }}</h2>
+
+        <div>                
+            <img [src]="'http://127.0.0.1:3001/images/' + selectedImage.url" alt="Selected Image">
+        </div>
+     
+      </div>
+}

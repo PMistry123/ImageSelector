@@ -1,0 +1,9 @@
+
+<div class="container">
+  <div class="product">
+    <app-image-selector (imageSelected)="onImageSelected($event)"></app-image-selector>
+  </div>
+  <div class="product">
+    <app-selected-image [selectedImage]="selectedImage"></app-selected-image>
+  </div>
+</div>

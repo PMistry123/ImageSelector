@@ -1,27 +1,27 @@
 # ImageSelector
 
-I have refactor the code using Angular 17 and NVM 18.17.1
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.5.
 
-Image-api-project - Server
-Image-selector - Client
+## Development server
 
-Server
-- Open terminal run 'brew install yarn' (if you do not have yarn in your mac)
-- Open API project in VisualStudio Code
-- run command 'yarn install'
-- run command 'node server.js' 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Client
-- Delete package-lock.json
-- Run command 'nvm use 18'
-- Run command 'npm install'
-- Run command 'ng serve'
+## Code scaffolding
 
-- I have use Angular Material UI to achieve this
-- To make it responsive I have use Flexbox
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Other ways to achieve this
-- Here, I have created a project using different components
-- Right now, I have not created a service here, but we can create a singular service to call all HTTP services on the page.
-- We can use other ways to achieve this, such as app.component.html, which will generate all UI on a single page. 
-- Create a GitHub library. Store this component as an NPM package and use it wherever required. 
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

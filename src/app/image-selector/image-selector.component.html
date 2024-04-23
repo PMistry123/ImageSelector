@@ -1,0 +1,8 @@
+<mat-form-field>
+    <mat-label>Select Image</mat-label>
+    <mat-select (selectionChange)="onImageSelect($event.value)">
+        @for (image of images; track image) {
+            <mat-option [value]="image">{{image.name}}</mat-option>
+          }
+    </mat-select>
+  </mat-form-field>
